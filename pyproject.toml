@@ -5,13 +5,14 @@ description = "Wright engineering MCP catalog for Hermes Agent"
 authors = [{name = "Wright Project", email = "wright@example.com"}]
 license = {text = "MIT"}
 requires-python = ">=3.11"
+classifiers = ["Private :: Do Not Upload"]
 dependencies = [
     "pyyaml>=6.0",
     "pydantic>=2.0",
     "httpx>=0.27",
     "structlog>=24.0",
-    "wright-core @ git+https://github.com/burhop/wright.git@b6c6703d05c9333762a073664ae81fd07215ce7d#subdirectory=packages/core",
-    "wright-tool-registry @ git+https://github.com/burhop/wright.git@b6c6703d05c9333762a073664ae81fd07215ce7d#subdirectory=packages/tool_registry",
+    "wright-core @ git+https://github.com/burhop/wright.git@7aa085afc65261aa232b91cf420d5a48561f17c6#subdirectory=packages/core",
+    "wright-tool-registry @ git+https://github.com/burhop/wright.git@7aa085afc65261aa232b91cf420d5a48561f17c6#subdirectory=packages/tool_registry",
 ]
 
 [project.entry-points."hermes_agent.plugins"]
