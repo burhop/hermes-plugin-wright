@@ -11,8 +11,8 @@ dependencies = [
     "pydantic>=2.0",
     "httpx>=0.27",
     "structlog>=24.0",
-    "wright-core @ git+https://github.com/burhop/wright.git@fa5baba8859725152e6df6ec71957ea4d2e3eebd#subdirectory=packages/core",
-    "wright-tool-registry @ git+https://github.com/burhop/wright.git@fa5baba8859725152e6df6ec71957ea4d2e3eebd#subdirectory=packages/tool_registry",
+    "wright-core @ git+https://github.com/burhop/wright.git@4d0dfbce8b6147033cb350138a55fd702b9980eb#subdirectory=packages/core",
+    "wright-tool-registry @ git+https://github.com/burhop/wright.git@4d0dfbce8b6147033cb350138a55fd702b9980eb#subdirectory=packages/tool_registry",
 ]
 
 [project.entry-points."hermes_agent.plugins"]
