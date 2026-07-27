@@ -1,12 +1,12 @@
-# Wright Hermes Plugin Provenance
-
-This file is a template in the main Wright repository. The mirror sync workflow rewrites provenance for each generated mirror state.
+# Provenance
 
 Main repository: https://github.com/burhop/wright
+Mirror repository: https://github.com/burhop/hermes-plugin-wright
 Source branch: dev
-Source commit: generated-by-sync-workflow
+Source commit: c438f912f7cb8aaded38f15e9fac2836ac6cdf44
+Generated at: 2026-07-27T23:57:40Z
 Plugin version: 1.0.0
-wright-core version: 0.1.0
-wright-tool-registry version: 0.1.0
+wright-core source version: 0.1.0
+wright-tool-registry catalog source version: 0.1.0
 
-Stable mirror releases must include a generated `provenance.json` with a full 40-character main repository commit SHA and the exact package versions used by the release.
+The source versions identify generated mirror inputs, not runtime dependencies.
