@@ -1,12 +1,12 @@
 {
   "main_repo_url": "https://github.com/burhop/wright",
   "mirror_repo_url": "https://github.com/burhop/hermes-plugin-wright",
-  "commit_sha": "c438f912f7cb8aaded38f15e9fac2836ac6cdf44",
+  "commit_sha": "0f8feb106f3fda89411a94810e55e86e23971ecd",
   "branch": "dev",
   "channel": "development",
-  "generated_at": "2026-07-27T23:57:40Z",
-  "workflow_run_url": "https://github.com/burhop/wright/actions/runs/30315818920",
-  "plugin_version": "1.0.0",
+  "generated_at": "2026-07-29T18:54:12Z",
+  "workflow_run_url": "https://github.com/burhop/wright/actions/runs/30481998996",
+  "plugin_version": "1.2.0",
   "wright_core_version": "0.1.0",
   "wright_tool_registry_version": "0.1.0",
   "source_paths": ["hermes-plugin-wright"]
